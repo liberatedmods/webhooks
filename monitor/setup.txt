@@ -1,0 +1,21 @@
+put `monitor` folder in /root
+make dir /root/dumps/
+
+edit autodump.sh
+put interface name in top of file (to listen to)
+You can also change the PPS in this file.
+
+webhook1/2 
+create a discord web hook in your Discord server Administration: put in top of file.
+Edit webhook as needed
+
+install python3.7
+apt-get install pip3
+pip3 install dhooks
+apt install unzip python3 htop nload vnstat tcpdump screen -y -q
+screen -S monitor sh /root/monitor/autodump.sh
+
+
+
+
+
